@@ -22,7 +22,6 @@ services:
       - /app/node_modules
       - ./server:/app
 
-
   client:
     stdin_open: true
     environment:
